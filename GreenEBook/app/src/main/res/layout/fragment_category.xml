@@ -9,48 +9,200 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
             <Button
                 android:id="@+id/btnNgonTinh"
-                android:layout_width="wrap_content"
+                android:layout_width="360px"
                 android:layout_height="wrap_content"
-                android:text="@string/ngon_tinh"/>
+                android:layout_marginTop="14px"
+                android:gravity="center"
+                android:text="@string/ngon_tinh" />
+
             <Button
                 android:id="@+id/btnTienHiep"
-                android:layout_width="wrap_content"
+                android:layout_width="360px"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:gravity="center"
                 android:text="@string/tien_hiep" />
+
             <Button
                 android:id="@+id/btnKiemHiep"
-                android:layout_width="wrap_content"
+                android:layout_width="360px"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="14px"
+                android:gravity="center"
                 android:text="@string/kiem_hiep" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10px">
+
             <Button
                 android:id="@+id/btnTruyenTeen"
-                android:layout_width="wrap_content"
+                android:layout_width="360px"
                 android:layout_height="wrap_content"
-                android:text="@string/truyen_teen" />
-        </TableRow>
-
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+                android:text="@string/truyen_teen"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
             <Button
-                android:id="@+id/button5"
-                android:layout_width="wrap_content"
+                android:id="@+id/btnDothi"
+                android:layout_width="360px"
                 android:layout_height="wrap_content"
-                android:text="Button" />
-
+                android:text="@string/do_thi"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnHuyenhuyen"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/huyen_huyen"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="10px">
+            <Button
+                android:id="@+id/btnQuangtruong"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/quan_truong"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnSac"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/sac"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnVongdu"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/vong_du"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+        </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="10px">
+            <Button
+                android:id="@+id/btnHaihuoc"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/hai_huoc"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnDigioi"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/di_gioi"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnDinang"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/di_nang"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10px">
+            <Button
+                android:id="@+id/btnQuansu"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/quan_su"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnLichsu"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/lich_su"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnXuyenkhong"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/xuyen_khong"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10px">
+            <Button
+                android:id="@+id/btnTrongsinh"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/trong_sinh"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnCodai"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/co_dai"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnThamhiem"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/tham_hiem"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10px">
+            <Button
+                android:id="@+id/btnDongphuong"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/dong_phuong"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnKhac"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/khac"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+            <Button
+                android:id="@+id/btnMoiCapnhat"
+                android:layout_width="360px"
+                android:layout_height="wrap_content"
+                android:text="@string/moi_cap_nhat"
+                android:gravity="center"
+                android:layout_marginTop="14px"/>
+        </TableRow>
     </TableLayout>
 
 
