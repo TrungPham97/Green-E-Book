@@ -5,10 +5,53 @@
     android:layout_height="match_parent"
     tools:context=".CategoryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <TableRow>
+            <Button
+                android:id="@+id/btnNgonTinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ngon_tinh"/>
+            <Button
+                android:id="@+id/btnTienHiep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tien_hiep" />
+            <Button
+                android:id="@+id/btnKiemHiep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kiem_hiep" />
+            <Button
+                android:id="@+id/btnTruyenTeen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/truyen_teen" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+
 
 </FrameLayout>

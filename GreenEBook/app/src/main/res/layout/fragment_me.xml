@@ -1,14 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".meFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
 
+        <Button
+            android:id="@+id/btnMeLogin_Icon"
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:drawableTop="@drawable/ic_import_contacts_black_24dp"
+            android:text="@string/app_name"
+            android:background="@color/bgButtonHomeIcon"/>
+
+        <Button
+            android:id="@+id/ibMeInfo"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:drawableLeft="@drawable/ic_info_black_36dp"
+            android:text="@string/title_info"
+            android:background="@color/bgButtonHomeIcon"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"/>
+
+        <Button
+            android:id="@+id/ibMeVote"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:drawableLeft="@drawable/ic_danh_gia_36dp"
+            android:text="@string/title_vote"
+            android:background="@color/bgButtonHomeIcon"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"/>
+
+        <Button
+            android:id="@+id/ibMeLogin"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:drawableLeft="@drawable/ic_dang_nhap_36dp"
+            android:text="@string/title_login"
+            android:background="@color/bgButtonHomeIcon"
+            android:layout_marginVertical="@dimen/activity_vertical_margin"/>
+    </LinearLayout>
 </FrameLayout>

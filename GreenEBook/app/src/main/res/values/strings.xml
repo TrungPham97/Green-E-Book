@@ -1,9 +1,37 @@
 <resources>
-    <string name="app_name">Green E-Book</string>
+    <string name="app_name">Truyện TV</string>
+    <!-- Navigation Bottom -->
     <string name="title_book">Truyện</string>
     <string name="title_category">Thể loại</string>
     <string name="title_reading">Đang đọc</string>
     <string name="title_me">Cá nhân</string>
+    <!-- Me(Profile) -->
+    <string name="title_info">Thông tin</string>
+    <string name="title_vote">Đánh giá</string>
+    <string name="title_login">Đăng nhập</string>
+    <string name="title_history">Lịch sử</string>
+    <!-- Category -->
+    <string name="ngon_tinh">Ngôn tình</string>
+    <string name="tien_hiep">Tiên Hiệp</string>
+    <string name="kiem_hiep">Kiếm Hiệp</string>
+    <string name="truyen_teen">Truyện Teen</string>
+    <string name="do_thi">Đô Thị</string>
+    <string name="huyen_huyen">Huyền huyễn</string>
+    <string name="quan_truong">Quan Trường</string>
+    <string name="sac">Sắc</string>
+    <string name="vong_du">Võng Du</string>
+    <string name="hai_huoc">Hài Hước</string>
+    <string name="di_gioi">Dị Giới</string>
+    <string name="di_nang">Dị Năng</string>
+    <string name="quan_su">Quân Sự</string>
+    <string name="lich_su">Lịch Sử</string>
+    <string name="xuyen_khong">Xuyên Không</string>
+    <string name="trong_sinh">Trọng Sinh</string>
+    <string name="co_dai">Cổ Đại</string>
+    <string name="tham_hiem">Thám Hiểm</string>
+    <string name="dong_phuong">Đông Phương</string>
+    <string name="khac">Khác</string>
+    <string name="moi_cap_nhat">Mới Cập Nhật</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
