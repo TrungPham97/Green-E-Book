@@ -1,5 +1,6 @@
 package com.sinhvien.greene_book;
 
+import android.app.Application;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -18,12 +19,27 @@ public class MainActivity extends AppCompatActivity
         CategoryFragment.OnFragmentInteractionListener,
         readingFragment.OnFragmentInteractionListener
 {
+    /*Database database;*/
     private static final String TAG = "MainActivity";
     private ActionBar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        /*//Tạo database DocTruyen
+        database = new Database(this,"doctruyen.sqlite",null,1);
+
+        //Tạo bảng truyện
+        database.QueryData("CREATE TABLE IF NOT EXISTS Truyen(" +
+                "Id INTERGER PRIMARY KEY AUTOINCREMENT, " +
+                " tenTruyen NVARCHAR(200)" +
+                " noiDung NVARCHAR(MAX)" +
+                " moTa NVARCHAR(200)" +
+                " hinhAnh NVARCHAR(500)");
+
+        //Insert data
+        database.QueryData("INSERT INTO Truyen VALUES(null, 'Già Thiên', 'abc....',null,'https://cdnvn.truyenfull.vn/cover/o/eJzLyTDT1430cjdLK64q8w_I1g9zNErTTSwpSrX01HeEAbdA_ZzkLN2q8nTdsBQL_XIjQ1PdDGMjIwBeARKY/gia-thien.jpg')");*/
 
         toolbar = getSupportActionBar();
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
