@@ -32,7 +32,8 @@
     <string name="dong_phuong">Đông Phương</string>
     <string name="khac">Khác</string>
     <string name="moi_cap_nhat">Mới Cập Nhật</string>
-
+    <string name="info">Ứng dụng Truyện VT bao gồm hơn 20.000 bộ truyện hay nhất, được cộng đồng dịch giả và chia sẻ online.
+    Cảm ơn các bạn đã đồng hành cùng ứng dụng. Chúc các bạn đọc truyện vui vẻ</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -25,7 +25,8 @@
             android:layout_height="58dp"
             android:drawableLeft="@drawable/ic_info_black_36dp"
             android:text="@string/title_info"
-            android:background="@color/bgButtonHomeIcon"
+            android:background="@drawable/border"
+            android:padding="@dimen/padding_btn"
             android:layout_marginVertical="@dimen/activity_vertical_margin"/>
 
         <Button
@@ -34,7 +35,8 @@
             android:layout_height="58dp"
             android:drawableLeft="@drawable/ic_danh_gia_36dp"
             android:text="@string/title_vote"
-            android:background="@color/bgButtonHomeIcon"
+            android:background="@drawable/border"
+            android:padding="@dimen/padding_btn"
             android:layout_marginVertical="@dimen/activity_vertical_margin"/>
 
         <Button
@@ -43,7 +45,8 @@
             android:layout_height="58dp"
             android:drawableLeft="@drawable/ic_dang_nhap_36dp"
             android:text="@string/title_login"
-            android:background="@color/bgButtonHomeIcon"
+            android:padding="@dimen/padding_btn"
+            android:background="@drawable/border"
             android:layout_marginVertical="@dimen/activity_vertical_margin"/>
     </LinearLayout>
 </FrameLayout>
